@@ -82,6 +82,12 @@ export default async function Header() {
                     Interview Prep
                   </Link>
                 </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link href="/interview" className="flex items-center gap-2">
+                    <GraduationCap className="h-4 w-4" />
+                    Resume Analyzer
+                  </Link>
+                </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
           </SignedIn>
